@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="TN.ar" tvg-name="Todo Noticias" group-title="Noticias" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/resources/logos/TodoNoticias.png", TN (Todo Noticias)
+plugin://plugin.video.youtube/play/?video_id=hMBK7M7p80w
+#EXTINF:-1 tvg-id="LNPlus.ar" tvg-name="LN+" group-title="Noticias" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/resources/logos/LNPlus.png", LN+
+plugin://plugin.video.youtube/play/?video_id=3vU0P-gBv2A
+#EXTINF:-1 tvg-id="C5N.ar" tvg-name="C5N" group-title="Noticias" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/resources/logos/C5N.png", C5N
+plugin://plugin.video.youtube/play/?video_id=2O-H_p4zYyE
+#EXTINF:-1 tvg-id="CronicaTV.ar" tvg-name="Crónica TV" group-title="Noticias" tvg-logo="https://raw.githubusercontent.com/iptv-org/database/master/resources/logos/CronicaTV.png", Crónica TV
+plugin://plugin.video.youtube/play/?video_id=3v766D03vE0
+#EXTINF:-1 tvg-id="247CanaldeNoticias.ar@SD" tvg-logo="https://i.imgur.com/4hDCB1M.png" group-title="News",24/7 Canal de Noticias
+https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
+#EXTINF:-1 tvg-id="MercurioNoticias.ar@SD" tvg-logo="https://i.imgur.com/sfd87LX.png" group-title="News",Mercurio Noticias
+https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8

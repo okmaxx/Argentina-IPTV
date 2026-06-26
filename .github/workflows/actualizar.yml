@@ -4,7 +4,10 @@ on:
   schedule:
     # Se ejecuta todos los días a las 07:00 UTC (04:00 AM de Argentina)
     - cron: '0 7 * * *'
-  workflow_dispatch: # Esto te permite ejecutarlo manualmente cuando quieras desde GitHub
+  workflow_dispatch: # Permite ejecutarlo manualmente
+
+permissions:
+  contents: write # 👈 ESTO le da permiso al bot para guardar los archivos generados
 
 jobs:
   build:
@@ -17,7 +20,7 @@ jobs:
     - name: Configurar Python
       uses: actions/setup-python@v5
       with:
-        python-python-version: '3.x'
+        python-version: '3.x' # 👈 Corregido el error de tipeo aquí
 
     - name: Instalar dependencias
       run: |
